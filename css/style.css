@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*INICIO----LOGO__________________*/
+.div-logo{
+    background-color:rgb(37, 35, 35);
+    width: auto;
+    height: 60px;
+    display: flex;    
+    justify-content: space-between;
+}
+
+#img-logo{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 135px;
+
+}
+.menu-direito{
+    background:  rgb(37, 35, 35);
+   
+    
+    
+}
+.menu-direito ul{
+        font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 20px;
+        margin-right: 135px;
+        display: flex;
+        
+        
+}
+.menu-direito ul a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding-bottom: 0px;
+    
+}
+
+.div-black{
+    background:  rgb(37, 35, 35);
+    
+    width: auto;
+    height: 280px;
+    left: 0px;
+    top: 60px;
+    display: flex;
+ }
+ .div-black button{
+    position:relative;
+    width: 200px;
+    height: 50px;
+    background: rgb(216,49,91,1);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    right:500px;
+    top: 150px;
+}
+.div-black h4{
+    color:rgb(216,49,91,1);
+    margin-top: 50px;  
+    padding-left: 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+     justify-content: space-between;
+
+}
+#conteudo{
+    
+    Height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo-esquerdo{
+    margin-left: 50px;
+    width: 500px;
+    height: 300px;
+    
+  
+}
+.conteudo-esquerdo h2{
+    margin-top: 50px;
+    text-align: center;
+   
+
+}
+
+
+
+.conteudo-direito{
+    background: rgb(134, 134, 134);
+    margin: 30px;
+    width: 500px;
+    height: 300px;
+}
+.conteudo-direito h3{
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#direito{
+    display: inline-block;
+   margin-left: 100px;
+   padding-top: 20px;
+    
+    
+}
+#esquerdo{
+   display: inline-block;
+    margin-left: 100px;
+    
+   
+
+ }
+ul{
+    list-style: none;
+}
+
+ #conteudo ul a{
+     
+     color: rgb(3, 3, 3);
+     font-size: 1.2em;
+     display: block;
+     line-height:30px ;
+     text-decoration: none;
+     
+ }
+ #corona{
+     margin-top: 80px;
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     width: auto;
+     height: 90px;
+ }
+ #corona span{
+     color: rgb(216,49,91,1);
+ }
+ .primeira-linha{
+    display: flex;
+    flex-direction: row;
+ }
+ .segunda-linha{
+    display: flex;
+    flex-direction: row;
+ }
+
+.um{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px;
+    width: 220px;
+    height: 200px;
+ 
+ }
+ #um{
+     background-color: rgb(216,49,91,1);
+     margin-top: 10px;
+     border-radius: 50%;
+     margin-left: 35px;
+     width: 150px;
+     height: 150px;
+ }
+ .img1{
+     margin-top: 27px;
+     padding-left: 10px;
+ }
+
+.dois{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px;
+    width: 220px;
+    height: 200px;
+   
+}
+#dois{
+   
+    background-color: rgb(216,49,91,1);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img2{
+    margin-top: 33px;
+    
+}
+.tres{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px;
+    width: 220px;
+    height: 200px;
+}
+#tres{
+    background-color: rgb(216,49,91,1);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img3{
+    margin-top: 33px;
+}
+.quatro{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px;
+    width: 220px;
+    height: 200px;
+ }
+ #qautro{
+    background-color: rgb(216,49,91,1);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img4{
+    margin-top: 33px;
+    margin-left: 15px;
+
+}
+.cinco{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px;
+    width: 220px;
+    height: 200px;
+}
+#cinco{
+    background-color: rgb(216,49,91,1);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img5{
+    margin-top: 33px;
+}
+.seis{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 50px;
+    width: 220px;
+    height: 200px;
+}
+#seis{
+    background-color: rgb(216,49,91,1);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.img6{
+    margin-top: 33px;
+}
+.coach{
+    background-color:rgb(37, 35, 35);
+    width: auto;
+    height: 60px;
+       
+}
+.coach h4{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}

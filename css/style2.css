@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*INICIO----LOGO__________________*/
+.div-logo{
+    background-color:rgb(37, 35, 35);
+    width: auto;
+    height: 60px;
+    display: flex;    
+    justify-content: space-between;
+}
+#img-logo{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 135px;
+}
+.menu-direito{
+    background:  rgb(37, 35, 35);
+}
+.menu-direito ul{
+        font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 20px;
+        margin-right: 135px;
+        display: flex;      
+}
+.menu-direito ul a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding-bottom: 0px;
+}
+
+#conteudo{
+    margin-top: 50px;
+    Height: 280px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.conteudo-esquerdo{
+    font-size: 1.5em;
+    margin-left: 50px;
+    width: 350px;
+    height: 700px;
+}
+.conteudo-esquerdo h2{
+   font-size: 2.3em;
+    color: rgb(216,49,91,1);
+    margin-top: 50px;
+}
+
+.img{
+    display: flex;
+    margin-top: 150px;
+}
+
+.coach{
+    background-color:rgb(37, 35, 35);
+    width: auto;
+    height: 60px;
+    margin-top: 19px;
+       
+}
+.coach h4{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+table{
+    font-size: 1.2em;
+    width: 900px;
+    height: 600px;
+    border-collapse:collapse;
+}
+th, td{
+    border: 1px solid rgb(233, 245, 250);
+   
+}
+table, th, td{
+    border-right: white;
+    border-bottom: white;
+    text-align: center;
+
+}
+th{
+    font-weight: normal;
+    border-left: white;
+    
+     
+}
+.no{
+    text-align: center;
+    border-top: white;
+}
+#borda{
+    border: 3px solid rgb(233, 245, 250);
+    width: 900px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+
+
+  
+
+
